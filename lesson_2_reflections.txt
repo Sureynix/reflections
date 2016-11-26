@@ -1,0 +1,14 @@
+1. This creates .git files inside of the directory you are in;you need to make sure that git is actually active in the directory before you can make any commits. 
+2. It's different because it is a temporary place where you can add files right before you send them in to the repository. It allows you to check the changes before you send them in. 
+3. You can compare the old version to the new version before you commit using git diff --staged. 
+4. Use branches when you need to develop something that might not yet be ready. 
+5. The visual diagrams show you where the branches were formed and how they progressed over time. 
+6. Merging two brances takes the changes from two different branches and combine them into one; we show it this way on the diagram because we can access all the commits from both of the other branches from the new merged branch. 
+7. Git Automerging:
+Fast
+No user input
+High risk of error when people change the same thing
+All manual:
+Slow
+Requires User Input
+Lower risk of error when people change the same thing
